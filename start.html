@@ -1,11 +1,6 @@
 <div ng-controller="REStartController">
-  <div rw-subject-header title="Economics Experiment: RP" round="currentRound" rounds="config.rounds" time-remaining="timeRemaining" time-total="config.timeLimit"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        Load experiments here
-        <div ng-include="'/static/experiments/redwood-revealed-preferences/start.html'"></div>
-      </div>
-    </div>
-  </div>
+    <span ng-repeat="stylesheet in cssToLoad">
+        <link rel="stylesheet" type="text/css" ng-href="{{stylesheet}}">
+    </span>
+    <div ng-include="viewToLoad" onload="viewLoaded()"></div>
 </div>
