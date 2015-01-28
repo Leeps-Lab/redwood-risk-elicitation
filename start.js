@@ -29,6 +29,7 @@ Redwood.controller("REStartController",
         rs.on_load(function() {
             $scope.viewToLoad = _views[rs.config.view];
             $scope.cssToLoad = _css[rs.config.view];
+            $scope.jsToLoad = _js[rs.config.view];
             $scope.ready = true;
         });
 
