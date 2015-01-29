@@ -36,5 +36,16 @@
           ]"></div>
       </div>
     </div>
+    <div class="row" ng-controller="HLFinishController">
+      <div class="col-lg-12">
+        <div rw-payout-table 
+          entries="results" 
+          payout-function="payoutFunction" 
+          fields="[
+            {key: 'period', name: 'Period', isNumber: false},
+            {key: 'decisionText', name: 'Decision', isNumber: false},
+          ]"></div>
+      </div>
+    </div>
   </div>
 </div>
