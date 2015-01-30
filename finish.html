@@ -10,7 +10,7 @@
     </div>
   </div>
   <div class="container">
-    <div class="row" ng-controller="RPFinishController">
+    <div class="row" ng-hide="!shouldShow['RevealedPreferences']" ng-controller="RPFinishController">
       <div class="col-lg-12">
         <div rw-payout-table 
           entries="results" 
@@ -23,7 +23,7 @@
           ]"></div>
       </div>
     </div>
-    <div class="row" ng-controller="PAFinishController">
+    <div class="row" ng-hide="!shouldShow['PortfolioAllocation']" ng-controller="PAFinishController">
       <div class="col-lg-12">
         <div rw-payout-table 
           entries="results" 
@@ -36,7 +36,7 @@
           ]"></div>
       </div>
     </div>
-    <div class="row" ng-controller="HLFinishController">
+    <div class="row" ng-hide="!shouldShow['HoltLaury']" ng-controller="HLFinishController">
       <div class="col-lg-12">
         <div rw-payout-table 
           entries="results" 
