@@ -1,4 +1,4 @@
-Redwood.controller("REStartController", 
+RedwoodRiskElicitation.controller("REStartController", 
     ["$scope", "RedwoodSubject", "SynchronizedStopWatch",
     function ($scope, rs, stopWatch) {
         
