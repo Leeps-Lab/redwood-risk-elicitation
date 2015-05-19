@@ -1,6 +1,6 @@
 RedwoodRiskElicitation.controller("REStartController", 
-    ["$scope", "RedwoodSubject", "SynchronizedStopWatch",
-    function ($scope, rs, stopWatch) {
+    ["$scope", "RedwoodSubject",
+    function ($scope, rs) {
         
         var kRevealedPreferences = "RevealedPreferences";
         var kHoltLaury = "HoltLaury";
@@ -9,7 +9,7 @@ RedwoodRiskElicitation.controller("REStartController",
         var _views = {};
         _views[kRevealedPreferences] = "/static/experiments/redwood-revealed-preferences/start.html";
         _views[kHoltLaury] = "/static/experiments/redwood-holt-laury/start.html";
-        _views[kPortfolioAllocation] = "/static/experiments/redwood-portfolio-allocation/start.html";
+        _views[kPortfolioAllocation] = "/static/experiments/redwood-portfolio-allocation/html/start.html";
 
         var _css = {};
         _css[kRevealedPreferences] = [
@@ -19,7 +19,7 @@ RedwoodRiskElicitation.controller("REStartController",
             "/static/experiments/redwood-holt-laury/start.css"
         ];
         _css[kPortfolioAllocation] = [
-            "/static/experiments/redwood-portfolio-allocation/start.css"
+            "/static/experiments/redwood-portfolio-allocation/css/start.css"
         ];
 
         $scope.ready = false;

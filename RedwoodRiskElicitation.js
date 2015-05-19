@@ -1,1 +1,5 @@
-RedwoodRiskElicitation = angular.module("RedwoodRiskElicitation", ["Redwood", "RedwoodRevealedPreferences"]);
+RedwoodRiskElicitation = angular.module("RedwoodRiskElicitation", [
+    "Redwood",
+    "RedwoodRevealedPreferences",
+    "portfolioAllocation"
+]);
