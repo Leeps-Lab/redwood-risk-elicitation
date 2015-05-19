@@ -1,4 +1,4 @@
-RedwoodRiskElicitation.controller("REStartController", 
+riskElicitation.controller("reStartCtrl", 
     ["$scope", "RedwoodSubject",
     function ($scope, rs) {
         

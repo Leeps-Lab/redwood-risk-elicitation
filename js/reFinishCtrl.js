@@ -1,4 +1,4 @@
-RedwoodRiskElicitation.controller("REFinishController", ["$scope", "RedwoodSubject", function($scope, rs) {
+riskElicitation.controller("reFinishCtrl", ["$scope", "RedwoodSubject", function($scope, rs) {
     $scope.shouldShow = {
         "RevealedPreferences": false,
         "PortfolioAllocation": false,

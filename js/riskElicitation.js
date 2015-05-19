@@ -1,4 +1,4 @@
-RedwoodRiskElicitation = angular.module("RedwoodRiskElicitation", [
+riskElicitation = angular.module("riskElicitation", [
     "Redwood",
     "RedwoodRevealedPreferences",
     "portfolioAllocation"
