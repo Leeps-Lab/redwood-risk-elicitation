@@ -1,0 +1,3 @@
+period,view,groups,rounds,preSimulatedRounds,practiceRounds,daysPerRound,secondsPerDay,startingWealth,wealthPerRound,minimumWealth,bondReturn,plotMinY,plotMaxY,stochasticFunction,Ex,Ey,Px,Py,XLimit,YLimit,ProbX,epsilon,plotResult,delay,pause,treatment,cash,duractioninseconds,cashexhausted
+1,ArrowSecurities,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,FALSE,-,100,20,FALSE
+2,HoltLaury,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,FALSE,pie-height,-,-,-
