@@ -23,7 +23,7 @@ function ($scope, rs) {
     "/static/experiments/redwood-portfolio-allocation/css/start.css"
   ];
   _css[karrowSecurities] = [
-    "/static/experiments/redwood-arrow-securities/start.css";
+    "/static/experiments/redwood-arrow-securities/start.css"
   ];
 
   $scope.ready = false;
