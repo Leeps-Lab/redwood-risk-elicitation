@@ -2,7 +2,8 @@ riskElicitation.controller("reFinishCtrl", ["$scope", "RedwoodSubject", function
     $scope.shouldShow = {
         "RevealedPreferences": false,
         "PortfolioAllocation": false,
-        "HoltLaury": false
+        "HoltLaury": false,
+        "ArrowSecurities": false
     }
 
     rs.on_load(function() {
