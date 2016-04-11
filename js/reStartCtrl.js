@@ -7,14 +7,14 @@ function ($scope, rs) {
   var karrowSecurities = "ArrowSecurities";
 
   var _views = {};
-  _views[kRevealedPreferences] = "/static/experiments/redwood-revealed-preferences/start.html";
+  _views[kRevealedPreferences] = "/static/experiments/redwood-revealed-preferences/start/start.html";
   _views[kHoltLaury] = "/static/experiments/redwood-holt-laury/start.html";
   _views[kPortfolioAllocation] = "/static/experiments/redwood-portfolio-allocation/html/start.html";
   _views[karrowSecurities] = "/static/experiments/redwood-arrow-securities/start.html";
 
   var _css = {};
   _css[kRevealedPreferences] = [
-    "/static/experiments/redwood-revealed-preferences/start.css"
+    "/static/experiments/redwood-revealed-preferences/start/start.css"
   ];
   _css[kHoltLaury] = [
     "/static/experiments/redwood-holt-laury/start.css"
