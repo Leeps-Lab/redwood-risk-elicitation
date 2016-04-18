@@ -3,13 +3,11 @@ riskElicitation.controller("reStartCtrl",
 function ($scope, rs) {
   var kRevealedPreferences = "RevealedPreferences";
   var kHoltLaury = "HoltLaury";
-  var kPortfolioAllocation = "PortfolioAllocation";
   var karrowSecurities = "ArrowSecurities";
 
   var _views = {};
   _views[kRevealedPreferences] = "/static/experiments/redwood-revealed-preferences/start/start.html";
   _views[kHoltLaury] = "/static/experiments/redwood-holt-laury/start.html";
-  _views[kPortfolioAllocation] = "/static/experiments/redwood-portfolio-allocation/html/start.html";
   _views[karrowSecurities] = "/static/experiments/redwood-arrow-securities/start.html";
 
   var _css = {};
@@ -18,9 +16,6 @@ function ($scope, rs) {
   ];
   _css[kHoltLaury] = [
     "/static/experiments/redwood-holt-laury/start.css"
-  ];
-  _css[kPortfolioAllocation] = [
-    "/static/experiments/redwood-portfolio-allocation/css/start.css"
   ];
   _css[karrowSecurities] = [
     "/static/experiments/redwood-arrow-securities/start.css"
