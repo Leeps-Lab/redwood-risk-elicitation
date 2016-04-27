@@ -1,7 +1,6 @@
-period,subject,view,groups,rounds,preSimulatedRounds,practiceRounds,daysPerRound,secondsPerDay,startingWealth,wealthPerRound,minimumWealth,bondReturn,plotMinY,plotMaxY,stochasticFunction,Ex,Ey,Px,Py,XLimit,YLimit,ProbX,epsilon,plotResult,delay,pause,treatment,cash,durationInSeconds,cashexhausted
-1,default,RevealedPreferences,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",1,-,-,-,-,-,-,-,-,-,-,-,0,50,100,62,100,100,0.2,2.0,FALSE,0.2,FALSE,-,-,-,-
-2,default,ArrowSecurities,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",1,-,-,-,-,-,-,-,-,-,-,-,-,-,0.5,1,-,-,0.5,-,-,-,FALSE,-,100,20,FALSE
-3,default,HoltLaury,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,FALSE,pie-height,-,-,-
-4,default,RevealedPreferences,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",1,-,-,-,-,-,-,-,-,-,-,-,0,50,100,62,100,100,0.2,2.0,FALSE,0.2,FALSE,-,-,-,-
-5,default,RevealedPreferences,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",1,-,-,-,-,-,-,-,-,-,-,-,0,50,100,62,100,100,0.2,2.0,FALSE,0.2,FALSE,-,-,-,-
-6,default,HoltLaury,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,FALSE,bar,-,-,-
+period,subject,view,groups,rounds,preSimulatedRounds,practiceRounds,daysPerRound,secondsPerDay,startingWealth,wealthPerRound,minimumWealth,bondReturn,plotMinY,plotMaxY,stochasticFunction,Ex,Ey,Px,Py,XLimit,YLimit,ProbX,epsilon,plotResult,delay,pause,treatment,cash,durationInSeconds,cashexhausted,points,display
+1,default,RevealedPreferences,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",1,-,-,-,-,-,-,-,-,-,-,-,0,50,100,62,100,100,0.2,2.0,FALSE,0.2,FALSE,-,-,-,-,,"only-line"
+2,default,RevealedPreferences,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",1,-,-,-,-,-,-,-,-,-,-,-,0,50,100,62,100,100,0.2,2.0,FALSE,0.2,FALSE,-,-,-,-,"[[20, 45],[10, 25],[35,25],[20,10],[45,5]]","only-points"
+3,default,RevealedPreferences,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",1,-,-,-,-,-,-,-,-,-,-,-,0,50,100,62,100,100,0.2,2.0,FALSE,0.2,FALSE,-,-,-,-,"[[5, 45],[10, 40],[25,25],[40,10],[45,5]]","line-points"
+4,default,ArrowSecurities,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",1,-,-,-,-,-,-,-,-,-,-,-,-,-,0.5,1,-,-,0.5,-,-,-,FALSE,-,100,20,FALSE,,
+5,default,HoltLaury,"[[1,2,3,4,5,6,7,8,9,10,11,12]]",-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,FALSE,pie-height,-,-,-,,
